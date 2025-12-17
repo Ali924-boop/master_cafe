@@ -14,7 +14,7 @@ const MenuSection = () => {
   const [menuItems] = useState<MenuItem[]>([
     { name: "Espresso", price: "$3.50", image: "/esprasso.jpg", description: "Strong, bold, and pure espresso." },
     { name: "Cappuccino", price: "$4.00", image: "/cappuccino.jpg", description: "Espresso with steamed milk and creamy foam." },
-    { name: "Croissant", price: "$2.50", image: "/Croissant.jpg", description: "Buttery, flaky, and freshly baked." },
+    { name: "Croissant", price: "$2.50", image: "/croissant.jpg", description: "Buttery, flaky, and freshly baked." },
     { name: "Latte", price: "$4.50", image: "/latte.jpg", description: "Smooth espresso with steamed milk." },
   ]);
 
